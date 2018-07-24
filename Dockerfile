@@ -40,5 +40,5 @@ RUN chmod +x generate-hashes.sh && ./generate-hashes.sh
 # Move codecs and hashes into busybox container
 FROM busybox AS codecs
 COPY --from=codecbuilder /usr/local/bin/bpg* /usr/local/bin/
-COPY --from=codecbuilder /opt/libbpg/bpg*.js* /var/lib/
+COPY --from=codecbuilder /opt/libbpg/bpg*.js* /var/www/
 WORKDIR /usr/local/bin
