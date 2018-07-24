@@ -8,7 +8,7 @@ Better Portable Graphics module for [After Dark]. Fractal Forest adds support fo
 
 ## Setup
 
-None required. Simply fetch the included JS files into an HTML page and BPG images on the page will be discovered and rendered automatically. If you're considering shipping native [wasm](https://webassembly.org) to the browser head to the [Development](#development) section and see the [Testing native WebAssembly](https://kripken.github.io/emscripten-site/docs/compiling/WebAssembly.html#testing-native-webassembly-in-browsers) and [Web server setup](https://kripken.github.io/emscripten-site/docs/compiling/WebAssembly.html#web-server-setup) section in the Emscripten docs. Shipping native wasm to the browser affords streaming browser compilation but can increase debugging complexity.
+None required.
 
 ## Installation
 
