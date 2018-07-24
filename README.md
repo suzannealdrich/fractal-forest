@@ -71,7 +71,7 @@ Where `712e9ce47e86` is the image id of the final build step.
 To update the javascript decoders in `static/js/bpg` run:
 
 ```
-$ docker run --rm --entrypoint tar 712e9ce47e86 cC /var/www/ . | tar xvC .
+$ docker run --rm --entrypoint tar 712e9ce47e86 cC /var/www/ . | tar xvC static/js
 ```
 
 Where `712e9ce47e86` is the image id of the final build step.
