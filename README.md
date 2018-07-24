@@ -4,7 +4,7 @@ Better Portable Graphics module for [After Dark]. Fractal Forest adds support fo
 
 ## Requirements
 
-- [After Dark] `5.0.0` or later.
+- [After Dark] `5.1.0` or later.
 
 ## Setup
 
