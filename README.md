@@ -25,7 +25,7 @@ None required. Simply fetch the included JS files into an HTML page and BPG imag
 3. Add and specify settings for the module in your After Dark site config, e.g.
 
     ```toml
-    [params.modules.fractal-forest]
+    [params.modules.fractal_forest]
       enabled = true # Optional, set false to disable module
       decoders = [
         "bpgdec8", # 8-bit only javascript decoder without animation
