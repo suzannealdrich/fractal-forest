@@ -1,0 +1,14 @@
+{{ if ne .enabled false }}
+  <meta title="mod:fractal-forest" content="status:enabled">
+  {{ if isset .decoders "bpgdec8" }}
+    <script async scr={{ "/js/bpg/bpgdec8.js" | relURL }} integrity={{ printf "sha384-" (readFile "/static/js/bpg/bpgdec8.js.sha384") }}{{ with .crossorigin }} crossorigin={{ . }}{{{ end }}}>
+  {{ end }}
+  {{ if isset .decoders "bpgdec" }}
+    <script async scr={{ "/js/bpg/bpgdec.js" | relURL }} integrity={{ printf "sha384-" (readFile "/static/js/bpg/bpgdec.js.sha384") }}{{ with .crossorigin }} crossorigin={{ . }}{{{ end }}}>
+  {{ end }}
+  {{ if isset .decoders "bpgdec8a" }}
+    <script async scr={{ "/js/bpg/bpgdec8a.js" | relURL }} integrity={{ printf "sha384-" (readFile "/static/js/bpg/bpgdec8a.js.sha384") }}{{ with .crossorigin }} crossorigin={{ . }}{{{ end }}}>
+  {{ end }}
+{{ else }}
+  <meta title="mod:fractal-forest" content="status:disabled">
+{{ end }}

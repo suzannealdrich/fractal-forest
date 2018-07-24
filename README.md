@@ -32,6 +32,7 @@ None required. Simply fetch the included JS files into an HTML page and BPG imag
         "bpgdec", # > 8-bit javascript decoder without animation
         "bpgdec8a" # 8-bit javascript decoder with animation
       ]
+      crossorigin = "anonymous" # Optional, sets CORS attribute
     ```
 
 4. Build and deploy your After Dark site.
@@ -51,7 +52,7 @@ To adjust the version of bpg used simply modify `LIBBPG_VERSION` in the `Dockerf
 
 Docker build produces an intermediate container image with libbpg source and result of compilation. It also copyies the codecs into a busybox image.
 
-To access full libbpg source run:
+To access the full `libbpg` source run:
 
 ```sh
 $ docker run -it 30c982469f98
@@ -70,7 +71,7 @@ Where `712e9ce47e86` is the image id of the final build step.
 To update the javascript decoders in `static/js/bpg` run:
 
 ```
-$ docker run --rm --entrypoint tar 712e9ce47e86 cC /bpg/ . | tar xvC .
+$ docker run --rm --entrypoint tar 712e9ce47e86 cC /var/lib/ . | tar xvC .
 ```
 
 Where `712e9ce47e86` is the image id of the final build step.
