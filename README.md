@@ -1,10 +1,10 @@
 # Fractal Forest
 
+> Better Portable Graphics module for [After Dark]. Fractal Forest adds support for Fabrice Bellard's [BPG Image format](https://bellard.org/bpg/).
+
 [![Latest NPM version](https://img.shields.io/npm/v/fractal-forest.svg?style=flat-square)](https://www.npmjs.com/package/fractal-forest)
 [![NPM downloads per month](https://img.shields.io/npm/dm/fractal-forest.svg?style=flat-square)](https://www.npmjs.com/package/fractal-forest)
 [![Minimum After Dark version](https://img.shields.io/badge/after%20dark->%3D%205.1.0-000000.svg?style=flat-square)](https://codeberg.org/vhs/after-dark/)
-
-Better Portable Graphics module for [After Dark]. Fractal Forest adds support for Fabrice Bellard's [well-regarded](https://news.ycombinator.com/item?id=17587684) and open source [BPG Image format](https://bellard.org/bpg/).
 
 ## Setup
 
