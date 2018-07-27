@@ -37,7 +37,7 @@ None required.
 
 4. Build and deploy your After Dark site.
 
-For additional information please see [BPG Image format](https://bellard.org/bpg/). To request a feature or report a bug please do so in the [After Dark] repository.
+For additional information please see [BPG Image format](https://bellard.org/bpg/).
 
 ## Development
 
