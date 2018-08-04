@@ -5,6 +5,7 @@
 [![Latest NPM version](https://img.shields.io/npm/v/fractal-forest.svg?style=flat-square)](https://www.npmjs.com/package/fractal-forest)
 [![NPM downloads per month](https://img.shields.io/npm/dm/fractal-forest.svg?style=flat-square)](https://www.npmjs.com/package/fractal-forest)
 [![Minimum After Dark version](https://img.shields.io/badge/after%20dark->%3D%205.1.0-000000.svg?style=flat-square)](https://codeberg.org/vhs/after-dark/)
+[![WTFPL licensed](https://img.shields.io/npm/l/fractal-forest.svg?style=flat-square&longCache=true)](https://codeberg.org/vhs/fractal-forest/src/branch/master/COPYING)
 
 ## Setup
 
