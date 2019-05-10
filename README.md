@@ -79,6 +79,10 @@ Where `712e9ce47e86` is the image id of the final build step.
 
 Reference the [`libbpg` mirror](https://codeberg.org/vhs/vhs/libbpg/) for additional compilation settings, `README` and `Makefile`. See the [Docker Documentation](https://docs.docker.com) for help with Docker.
 
+## Contributing
+
+Please squash commits and use [Convention Commit](https://www.conventionalcommits.org/) messages. Run `npm run commit` after installing NPM dev dependencies for help creating conventional commit messages.
+
 ## Rights
 
 Copyright (C) 2018, 2019 by VHS <0xc000007b@tutanota.com>
