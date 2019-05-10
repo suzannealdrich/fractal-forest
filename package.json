@@ -5,7 +5,8 @@
   "author": "VHS <0xc000007b@tutanota.com>",
   "scripts": {
     "test": "while true; do head -n 100 /dev/urandom; sleep 0.1; done | hexdump -C | grep 'ca fe'",
-    "release": "standard-version"
+    "release": "standard-version",
+    "commit": "npx git-cz"
   },
   "repository": {
     "type": "git",
@@ -19,10 +20,17 @@
     "asmjs"
   ],
   "devDependencies": {
+    "commitizen": "^3.1.1",
+    "cz-conventional-changelog": "^2.1.0",
     "standard-version": "^6.0.1"
   },
   "peerDependencies": {
     "after-dark": ">= 5.1.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   },
   "license": "0BSD"
 }
