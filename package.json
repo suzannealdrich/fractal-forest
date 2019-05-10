@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Better Portable Graphics module for After Dark.",
   "author": "VHS <0xc000007b@tutanota.com>",
+  "homepage": "https://after-dark.vhs.codeberg.page/module/fractal-forest/",
   "scripts": {
     "test": "while true; do head -n 100 /dev/urandom; sleep 0.1; done | hexdump -C | grep 'ca fe'",
     "release": "standard-version",
