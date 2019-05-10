@@ -5,7 +5,7 @@
 [![Latest NPM version](https://img.shields.io/npm/v/fractal-forest.svg?style=flat-square)](https://www.npmjs.com/package/fractal-forest)
 [![NPM downloads per month](https://img.shields.io/npm/dm/fractal-forest.svg?style=flat-square)](https://www.npmjs.com/package/fractal-forest)
 [![Minimum After Dark version](https://img.shields.io/badge/dynamic/json.svg?url=https://codeberg.org/vhs/fractal-forest/raw/branch/master/package.json&label=after%20dark&query=$..['after-dark']&colorB=000000&style=flat-square&longCache=false&maxAge=86400)](https://codeberg.org/vhs/after-dark/)
-[![WTFPL licensed](https://img.shields.io/npm/l/fractal-forest.svg?style=flat-square&longCache=true)](https://codeberg.org/vhs/fractal-forest/src/branch/master/COPYING)
+[![0BSD licensed](https://img.shields.io/npm/l/fractal-forest.svg?style=flat-square&longCache=true)](https://codeberg.org/vhs/fractal-forest/src/branch/master/COPYING)
 
 ## Setup
 
@@ -79,12 +79,12 @@ Where `712e9ce47e86` is the image id of the final build step.
 
 Reference the [`libbpg` mirror](https://codeberg.org/vhs/vhs/libbpg/) for additional compilation settings, `README` and `Makefile`. See the [Docker Documentation](https://docs.docker.com) for help with Docker.
 
-## License
+## Rights
 
-Copyright (C) 2018 VHS <0xc000007b@tutanota.com>
+Copyright (C) 2018, 2019 by VHS <0xc000007b@tutanota.com>
 
-This work is free. You can redistribute it and/or modify it under the
-terms of the Do What The Fuck You Want To Public License, Version 2,
-as published by Sam Hocevar. See the COPYING file for more details.
+Permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted.
+
+The text of the above license is included in the file COPYING in the source.
 
 [After Dark]: https://codeberg.org/vhs/after-dark/
